@@ -132,6 +132,8 @@ public abstract class DrawerNavigationUI extends SuperUI implements SlidingDrawe
 
         final DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 
+        /*
+        //Navigation bar header click listener
         LinearLayout llAccount = (LinearLayout) findViewById(R.id.navigation_account);
         llAccount.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -139,7 +141,7 @@ public abstract class DrawerNavigationUI extends SuperUI implements SlidingDrawe
                 startActivity(new Intent(getApplicationContext(), AccountActivity.class));
                 drawer.closeDrawer(GravityCompat.START);
             }
-        });
+        });*/
 
     }
 
