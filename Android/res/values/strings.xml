@@ -588,6 +588,7 @@
     <string name="uvc_device">Device</string>
     <string name="uvc_device_refresh">Refresh</string>
     <string name="uvc_device_no_device">No UVC device found</string>
+    <string name="authot_name">By Mamedli Ayaz</string>
 
 
 </resources>

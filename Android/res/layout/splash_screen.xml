@@ -9,4 +9,15 @@
         android:layout_height="wrap_content"
         android:id="@+id/splashImg"
         android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/authot_name"
+        android:id="@+id/author"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="25pt"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
 </FrameLayout>
